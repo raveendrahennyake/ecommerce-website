@@ -1,29 +1,26 @@
 
 import './App.css';
-import NavBar from './Componds/NavBar/NavBar';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import Hero from './Hero/Hero.jsx';
-import Men from './Men/Men.jsx';
-import Women from './Women/Women.jsx';
-import Shop from './Shop/Shop.jsx';
-import Kids from './Kids/Kids.jsx';
-import Item from './Componds/items/Item.jsx';
-import Popular from './Componds/popular/Popular.jsx';
+import Men from './pages/Men/Men.jsx';
+import Women from './pages/Women/Women.jsx';
+import Kids from './pages/Kids/Kids.jsx';
+import Shop from './pages/Shop/Shop.jsx';
+import Shoeps from './MainPage/Shoeps.jsx';
+import NavBar from './Componds/NavBar/NavBar.jsx';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <NavBar/>
+       <NavBar/>
       <Routes>
-          <Route path="/" element={<Hero />} />
+          
+          <Route path="/" element={<Shoeps/>}/>
           <Route path='/Men' element={<Men/>}/>
            <Route path='/Women' element={<Women/>}/>
             <Route path='/Shop' element={<Shop/>}/>
              <Route path='/Kids' element={<Kids/>}/>
       </Routes>
-      
-     
       </BrowserRouter>
       
       
