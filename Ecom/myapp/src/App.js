@@ -7,6 +7,8 @@ import Men from './Men/Men.jsx';
 import Women from './Women/Women.jsx';
 import Shop from './Shop/Shop.jsx';
 import Kids from './Kids/Kids.jsx';
+import Item from './Componds/items/Item.jsx';
+import Popular from './Componds/popular/Popular.jsx';
 
 function App() {
   return (
@@ -19,8 +21,9 @@ function App() {
            <Route path='/Women' element={<Women/>}/>
             <Route path='/Shop' element={<Shop/>}/>
              <Route path='/Kids' element={<Kids/>}/>
-
       </Routes>
+      
+     
       </BrowserRouter>
       
       
