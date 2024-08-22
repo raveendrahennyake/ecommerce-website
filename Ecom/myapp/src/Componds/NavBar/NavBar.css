@@ -47,6 +47,7 @@
 }
 .navtitle ul li {
     cursor: pointer;
+
 }
 .nav-count{
     background: red;
@@ -58,6 +59,5 @@
     text-align: center;
     margin-left: -20px;
     margin-top: -10px;
-
 
 }
