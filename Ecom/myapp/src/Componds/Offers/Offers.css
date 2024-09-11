@@ -4,9 +4,33 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
    
 
 }
 .left-side-offers {
     flex-basis: 40%;
+}
+
+.left-side-offers h1 {
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;}
+
+#Product p {
+      font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.left-side-offers button {
+    background:#ff4141;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    border: #e91e1e;
+    font-size: 20px;
+    cursor: pointer;
 }
