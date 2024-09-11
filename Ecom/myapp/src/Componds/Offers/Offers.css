@@ -1,0 +1,12 @@
+.offers {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+   
+
+}
+.left-side-offers {
+    flex-basis: 40%;
+}
