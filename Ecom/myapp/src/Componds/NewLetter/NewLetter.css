@@ -1,0 +1,69 @@
+.NewLetter {
+    margin-top: 600px;
+    margin-left: 60px;
+   width: 80%;
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+   gap: 15px;
+
+}
+
+
+
+.NewLetter h1 {
+    color: #171717;
+   font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+ 
+}
+.NewLetter p {
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.email_details {
+    display: flex;
+    gap: 25px;
+}
+.email_details input {
+    padding: 10px;
+}
+.email_details button {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.image-package{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 60px;
+}
+.image-package h1 {
+    font-size: 30px;
+}
+.footer ul {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+   
+
+
+}
+.Social-media {
+ display: flex;
+
+}
+.Social-media img {
+    flex-direction: column;
+    position: relative;
+   
+}

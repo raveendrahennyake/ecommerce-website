@@ -4,12 +4,19 @@
     align-items: center;
     gap: 20px;
      height: 90vh;
+    margin-top: 100px; 
+
 
 }
 .NewCollections h1 {
     color: #171717;
-    font-size:50px ;
-    font-weight: 600;
+   font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+
+
 }
 
 .NewCollections hr {
@@ -21,10 +28,8 @@
     bottom: -439px;
 }
 .collctions-item {
-    margin-top: 40px;
-    display: flex;
-    gap: 20px;
-    width: 90%;
-
-
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
 }
