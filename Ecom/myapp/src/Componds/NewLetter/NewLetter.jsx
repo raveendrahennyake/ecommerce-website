@@ -30,8 +30,8 @@ const NewLetter = () => {
 
         </div>
         <div className="Social-media">
-            <img id='instagram' src={instagram}/>
-             <img src={whatsapp}/>
+            <img  id='instagram' src={instagram}/>
+             <img id='whatsapp' src={whatsapp}/>
               <img id='pinterest' src={pinterest}/>
 
         </div>

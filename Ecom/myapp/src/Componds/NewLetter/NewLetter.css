@@ -39,6 +39,7 @@
     color: white;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
 
 }
 .image-package{
@@ -54,10 +55,14 @@
     display: flex;
     gap: 15px;
     font-size: 20px;
-   
-
-
+    list-style: none;
 }
+
+.footer ul li {
+    cursor: pointer;
+}
+
+
 .Social-media {
  display: flex;
 
@@ -65,5 +70,14 @@
 .Social-media img {
     flex-direction: column;
     position: relative;
+    cursor: pointer;
    
+}
+#instagram {
+    position: relative;
+    right: 26px
+}
+#pinterest {
+    position: relative;
+    left: 21px;
 }
