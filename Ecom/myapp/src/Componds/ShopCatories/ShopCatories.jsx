@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ShopCatories.css';
 
-import React from 'react'
+import all_product from '../../Assets/all_product';
+import { StoreCollection } from '../../MainPage/MainCollections';
 
-const ShopCatories = () => {
+const ShopCatories = (props) => {
+   const {all_product}=useContext(StoreCollection);
+
 
   return (
     <div className='shop=catories'>
+      <img src={props.banner}/>
+    
+
+    
         
       
     </div>
