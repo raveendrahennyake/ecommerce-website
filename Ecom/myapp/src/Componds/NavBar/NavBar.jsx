@@ -13,7 +13,7 @@ const NavBar = () => {
         </div>
         <div className='navtitle'>
             <ul>
-               <li><Link style={{textDecoration:'none'}} to='/Men'>Men</Link></li>
+               <li><Link style={{textDecoration:'none'}} to='/Men'>Mens</Link></li>
                 <li><Link style={{textDecoration:'none'}} to='/Shop'>Shop</Link></li>
                <li><Link style={{textDecoration:'none'}} to='/Kids'>Kids</Link></li>
                 <li><Link style={{textDecoration:'none'}} to='/Women'>Women</Link></li>
