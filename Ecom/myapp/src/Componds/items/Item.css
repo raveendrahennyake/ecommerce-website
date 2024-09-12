@@ -1,5 +1,6 @@
 .item {
-    width: 400px;
+    width: 250px;
+    align-items: center;
 }
 .item h1 {
     margin: 10px 0px;
