@@ -9,6 +9,7 @@ import bannermens from '../src/Assets/banner_mens.png';
 import bannerwomen from '../src/Assets/banner_women.png'
 import Signup from './pages/signup/Signup.jsx';
 import Shop from './pages/Shop/Shop.jsx';
+import Footer from '../../myapp/src/Componds/Footer/footer.jsx'
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
              <Route path='/card' element={<Shop/>}></Route>
              
       </Routes>
+       <Footer/>
+           
       </BrowserRouter>
       
       

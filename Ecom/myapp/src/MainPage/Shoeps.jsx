@@ -7,6 +7,7 @@ import NewLetter from '../Componds/NewLetter/NewLetter.jsx';
 
 
 
+
 const Shoeps = () => {
   return (
     <div>
@@ -15,6 +16,9 @@ const Shoeps = () => {
       <Offers/>
       <NewCollection/>
       <NewLetter/>
+      
+      
+      
      
       
       
