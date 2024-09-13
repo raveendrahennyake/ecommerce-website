@@ -17,14 +17,20 @@ const NavBar = () => {
         <div className='navtitle'>
             <ul>
                <li onClick={()=>{setmenu('mens')}}  ><Link style={{textDecoration:'none'}} to='/men'>Mens </Link >{menu==='mens'?<hr/>:<h/>}</li>
-                <li onClick={()=>{setmenu('shop')}}><Link style={{textDecoration:'none'}} to='/shop'>Shop</Link> {menu==='shop'?<hr/>:<h/>} </li>
+                <li onClick={()=>{setmenu('shop')}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link> {menu==='shop'?<hr/>:<h/>} </li>
                <li onClick={()=>{setmenu('kid')}}><Link style={{textDecoration:'none'}} to='/kid'>Kids</Link>{menu==='kids'?<hr/>:<h/>}</li>
                 <li onClick={()=>{setmenu('women')}}><Link style={{textDecoration:'none'}} to='/women'>Women</Link>{menu==='women'?<hr/>:<h/>}</li>
             </ul>
         </div>
         <div className='shopsite'>
-            <button className='nav-buttons'>Login</button>
-              <img src={cart}alt=''/>
+            <button className='nav-buttons'><Link to='/login'>Login</Link></button>
+            <div>
+             <Link to='/card'>
+                       <img src={cart} alt='Cart' />
+              </Link>
+
+            </div>
+             
               <div className='nav-count'>0</div>
                
 
