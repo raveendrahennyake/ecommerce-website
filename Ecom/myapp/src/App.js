@@ -16,12 +16,9 @@ function App() {
 
     <div className="App">
 
-
-
       <BrowserRouter>
        <NavBar/>
       <Routes>
-          
           <Route path="/" element={<Shoeps/> }/>
           <Route path='/men' element={<ShopCatories category="men" banner={bannermens}  />}/>
            <Route path='/women' element={<ShopCatories category="women" banner={bannerwomen}/>}/>

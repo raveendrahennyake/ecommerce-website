@@ -1,44 +1,47 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import './ShopCatories.css';
 import dropdown from '../../Assets/dropdown_icon.png';
-import { StoreCollection } from '../../MainPage/MainCollections';
-import Item from '../items/Item'; 
-const ShopCatories = (props) => {
-   const {all_product}=useContext(StoreCollection);
+import Item from '../items/Item.jsx'; 
+import { MainCollections } from '../../MainPage/MainCollections.jsx';
 
+const ShopCatories = (props) => {
+ 
+  const { all_products } = useContext(MainCollections);
+  
+  
+  if (!all_products) {
+    return <div>Loading...</div>; 
+  }
 
   return (
-    <div className='shop=catories'>
-      <img src={props.banner}/>
+    <div className='shop-catories'>
+      <img src={props.banner} alt="Banner"/>
       <div className="shop-catories-indexSort">
-        <p>Showing to 1-12</p>
+        <p>Showing 1-12</p>
         <div className="shop-catories-sort">
-          <img src={dropdown}/>
+          <img src={dropdown} alt="Sort dropdown"/>
         </div>
         <div className="shop-catories-products">
-          {/* {all_product.map((items,index)=>{
-            if(props.category===items.category){
-              return <Item key={index} id={items.id} image={items.image} new_price={items.new_price} old_price={items.old_price}/>
-
-            }else {
+          {all_products.map((item, index) => {
+            if (props.category === item.category) {
+              return (
+                <Item 
+                  key={index} 
+                  id={item.id} 
+                  image={item.image} 
+                  name={item.name} 
+                  new_price={item.new_price} 
+                  old_price={item.old_price}
+                />
+              );
+            } else {
               return null;
-
             }
-
-          })} */}
-          
-
+          })}
         </div>
-
       </div>
-    
-
-    
-        
-      
     </div>
-  )
-}
+  );
+};
 
-export default ShopCatories
-
+export default ShopCatories;

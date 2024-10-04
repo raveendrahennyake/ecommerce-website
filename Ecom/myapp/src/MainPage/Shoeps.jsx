@@ -17,14 +17,6 @@ const Shoeps = () => {
       <NewCollection/>
       <NewLetter/>
       
-      
-      
-     
-      
-      
-       
-       
-      
     </div>
   )
 }
