@@ -1,0 +1,63 @@
+.footerpage{
+   
+    margin-left: 60px;
+   width: 80%;
+   height: 50vh;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+  
+   gap: 15px;
+
+}
+
+.image-package{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 60px;
+}
+.image-package h1 {
+    font-size: 30px;
+}
+.footer ul {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer ul li {
+    cursor: pointer;
+}
+
+
+.Social-media {
+ display: flex;
+
+}
+.Social-media img {
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+   
+}
+#instagram {
+    position: relative;
+    right: 26px
+}
+#pinterest {
+    position: relative;
+    left: 21px;
+}
+.copy-right hr {
+    width: 1000px;
+  
+}
+.copy-right p {
+    position: relative;
+    left: 382px;
+     font-family: "Slabo 27px", serif;
+    font-weight: 400;
+ font-style: normal;
+}

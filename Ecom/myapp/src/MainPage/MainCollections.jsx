@@ -1,17 +1,19 @@
 import { createContext } from "react";
-import all_products  from '../Assets/all_product'
+import all_products  from '../Assets/all_product.js'
 
-export const StoreCollection=createContext();
+export const MainCollections=createContext(null);
+console.log(MainCollections);
 
-const StoreCollectionProvider=(props)=>{
+const MainCollectionProvider=(props)=>{
 
     const ContextValue={all_products}
     return(
-        <StoreCollection.Provider value={ContextValue}>{props.children} </StoreCollection.Provider>
+        
+       <MainCollections.Provider value={ContextValue}>{props.children}</MainCollections.Provider>
 
     )
 
 
 }
 
-export default StoreCollectionProvider;
+export default MainCollectionProvider;

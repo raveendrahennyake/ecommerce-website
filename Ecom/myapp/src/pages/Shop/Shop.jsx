@@ -4,7 +4,8 @@ import './Shop.css'
 
 const Shop = () => {
   return (
-    <div>
+    <div className='Shop'>
+      <h1>SHOP</h1>
       
 
        
