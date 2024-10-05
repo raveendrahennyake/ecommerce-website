@@ -6,10 +6,10 @@ import { MainCollections } from '../../MainPage/MainCollections.jsx';
 
 const ShopCatories = (props) => {
  
-  const { all_products } = useContext(MainCollections);
+  const { all_product } = useContext(MainCollections);
   
   
-  if (!all_products) {
+  if (!all_product) {
     return <div>Loading...</div>; 
   }
 
@@ -22,7 +22,7 @@ const ShopCatories = (props) => {
           <img src={dropdown} alt="Sort dropdown"/>
         </div>
         <div className="shop-catories-products">
-          {all_products.map((item, index) => {
+          {all_product.map((item, index) => {
             if (props.category === item.category) {
               return (
                 <Item 

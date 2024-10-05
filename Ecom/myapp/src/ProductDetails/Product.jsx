@@ -21,6 +21,7 @@ const Product = () => {
     <div className='product'>
       <BreadCrum product={product}/>
       <ProductDisplay product={product}/>
+     
     
       
     </div>
