@@ -1,0 +1,65 @@
+.Logpage {
+    width: 100%;
+    height:80vh ;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    padding-top: 100px;
+   
+}
+
+.logpage-containar {
+    margin-left: 280px;
+    background: white;
+    width: 40%;
+    flex-direction: column;
+     border: solid black 1px;
+    
+
+
+}
+
+.logpage-containar h1 {
+    color: black;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.login-form input {
+    padding: 10px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    
+}
+.login-continuebutton button {
+    padding: 8px;
+    background: black;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.login-form input {
+    margin-left: 30px;
+    width: 60%;
+}
+
+.login-private-police label{
+     font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+    
+}
+
+
+
+  .login-details {
+    font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  }

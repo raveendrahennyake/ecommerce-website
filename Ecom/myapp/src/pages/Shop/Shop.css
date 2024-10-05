@@ -1,0 +1,25 @@
+.Shop {
+    width: 100%;
+    height:80vh ;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    padding-top: 100px;
+   
+}
+
+.Shop-containar {
+    margin-left: 280px;
+    background: white;
+    width: 40%;
+    flex-direction: column;
+     border: solid black 1px;
+
+}
+
+.Shop-containar h1 {
+    color: black;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}

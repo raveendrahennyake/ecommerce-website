@@ -1,12 +1,11 @@
 import React from 'react'
-import './Shop.css'
+import './Login.css';
 
-
-const Shop = () => {
+const Login = () => {
   return (
-    <div className='Shop'>
-      <div className="Shop-containar">
-        <h1>Sign Up</h1>
+    <div className='Logpage'>
+      <div className="logpage-containar">
+        <h1>Login</h1>
         <div className="login-form">
           <input type='text' placeholder='Enter Your Name'></input><br></br>
           <input type='text' placeholder='Enter Your Email Address'></input><br></br>
@@ -15,24 +14,19 @@ const Shop = () => {
         <div className="login-continuebutton">
           <button>Continue</button>
           <div className="login-details">
-            <h2>Already have an account ? <label style={{color:'red',cursor:'pointer'}}>Login</label> </h2>
+            <h2>create and account ?  <label style={{color:'red',cursor:"pointer"} }>click her</label></h2>
           </div>
           <div className="login-private-police">
-            <input style={{cursor:'pointer'}} type="radio"></input><label >I agree with your private policies</label>
+            <input style={{cursor:'pointer'}} type="radio"></input><label>I agree with your private policies </label>
           </div>
           
          
         </div>
-
-
       </div>
-      
-      
 
-       
       
     </div>
   )
 }
 
-export default Shop
+export default Login
