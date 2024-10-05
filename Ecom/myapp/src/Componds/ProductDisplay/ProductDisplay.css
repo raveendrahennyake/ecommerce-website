@@ -1,0 +1,55 @@
+.ProductDisplay {
+    display: flex;
+    margin: 0px 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product-left-side {
+    display: flex;
+    gap: 15px;
+    flex-basis: 50%;
+}
+.image-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.image-list img {
+    height: 120px;
+    border: solid blue 1px;
+    border-radius: 10px;
+}
+
+.product-right-side {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  
+   
+
+}
+.product-right-side h1 {
+    color: black;
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    }
+
+.price-gap {
+    display: flex;
+    gap: 5px;
+}    
+
+.product-size {
+    display: flex;
+    gap: 8px;
+}
+.product-button button {
+    padding: 10px;
+    background: black;
+    color: white;
+}

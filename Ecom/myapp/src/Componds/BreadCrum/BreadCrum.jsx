@@ -9,7 +9,8 @@ const BreadCrum = (props) => {
   return (
     <div className='BreadCrum'>
         
-         Home <img src={arraw} alt='' /> SHOP <img src={arraw} alt='' /> {product?.category || 'Category'} <img src={arraw} alt='' />
+         HOME <img src={arraw} alt='' /> SHOP <img src={arraw} alt='' /> {(product?.category?.toUpperCase() || 'CATEGORY')} <img src={arraw} alt='' />
+         {product.name.toUpperCase()}
       
     </div>
   )
